@@ -35,114 +35,36 @@ Modern retail POS systems increasingly operate as the central layer connecting *
 
 ### Major Retail POS Platforms
 
-* **Shopify POS**
-
-  * Omnichannel POS tightly integrated with the Shopify commerce ecosystem.
-  * Synchronizes in-store and online commerce, inventory, orders, customers, and products.
-  * Particularly compelling for retailers already using Shopify ecommerce.
-
-* **Square**
-
-  * Cloud POS and payments ecosystem.
-  * Combines checkout, payments, inventory, customers, staff, loyalty, ecommerce, appointments, and reporting.
-  * Particularly strong for small and medium-sized merchants.
-
-* **Lightspeed Retail**
-
-  * Retail-focused POS with sophisticated inventory, purchasing, reporting, customer management, ecommerce, and multi-location functionality.
-  * Particularly strong for specialty retailers and businesses with complex catalogs.
-
-* **Clover**
-
-  * Hardware-centric cloud POS and payments ecosystem.
-  * Combines terminals, payments, inventory, employees, reporting, and a large third-party application ecosystem.
-
-* **Toast**
-
-  * Primarily restaurant-focused POS and commerce platform.
-  * Includes POS, payments, online ordering, delivery, labor, inventory, loyalty, and restaurant operations.
-
-* **Vend**
-
-  * Cloud retail POS and inventory platform.
-  * Acquired by Lightspeed and subsequently incorporated into the Lightspeed Retail ecosystem.
-  * Best treated as a historical/product-line reference rather than a separate current major vendor.
-
-* **Revel Systems**
-
-  * Cloud-based iPad POS platform.
-  * Supports inventory, employee management, reporting, customer management, integrations, and multi-location operations.
-  * Particularly prominent in restaurant and hospitality environments.
-
-* **Heartland Retail**
-
-  * Retail POS and management platform from Heartland.
-  * Focuses on inventory, customer engagement, reporting, payments, and multi-store retail.
-
-* **EPOS Now**
-
-  * Cloud POS platform serving retail and hospitality.
-  * Provides POS, inventory, payments, reporting, employee management, and integrations.
-
-* **ShopKeep**
-
-  * ShopKeep is now part of the Lightspeed ecosystem.
-  * Its technology/product lineage is associated with **Lightspeed Retail (S-Series)**.
-  * Treat it as a historical POS brand rather than a separate current platform.
+| Platform | Key Focus & Capabilities | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **Shopify POS** | Omnichannel POS tightly integrated with Shopify commerce ecosystem; synchronizes in-store and online catalog, inventory, orders, and customer profiles. | Starts at **$5/mo** (Shopify Starter) or **$29/mo** (Basic Shopify, billed annually; $39/mo monthly) with Shopify POS Lite included; Shopify POS Pro add-on is **$89/mo per location**. | **3-day free trial** with access to POS app and back-office; live checkout & payment processing disabled until a paid plan is selected (no permanent free tier). |
+| **Square** | Cloud POS and payment ecosystem combining checkout, inventory, CRM, staff, loyalty, and online ordering. | **$0/mo** (Free Plan) with standard processing fees of 2.6% + 15¢ per in-person transaction; Square for Retail Plus starts at **$89/mo per location**. | **Free forever plan** with unlimited items, unlimited sales volume, 1 location, and basic inventory; **30-day free trial** for Square for Retail Plus. |
+| **Lightspeed Retail** | Retail-focused POS with advanced multi-store inventory, vendor catalogs, purchasing, reporting, and customer loyalty. | Starts at **$109/mo** (Basic plan, billed annually) or **$149/mo** (Core plan, billed annually) per register. | **14-day free trial** with full access to inventory, POS register, and analytics features; testing restricted to demo/sandbox data before merchant activation. |
+| **Clover** | Hardware-centric cloud POS and payments platform with a wide third-party app marketplace and employee management. | Software starts at **$4.95/mo** (Payments tier) to **$39.95/mo** (Essentials tier) / **$89.95/mo** (Standard tier) for retail software (hardware sold separately). | **Up to 90-day free trial** on SaaS subscription fees for Essentials/Growth plans for new eligible merchants; requires Clover hardware purchase and active transaction processing. |
+| **Toast** | Restaurant and hospitality POS ecosystem covering order management, kitchen display systems, inventory, and online ordering. | **$0/mo** (Quick Start Starter Kit with processing rate of 2.99% + 15¢) or **$69/mo** (Standard Point of Sale plan). | **Free forever Starter plan** for up to 2 terminals with core POS & reporting; add-on modules (loyalty, marketing, scheduling) require paid subscription upgrades. |
+| **Vend** *(Lightspeed Retail X-Series)* | Cloud retail POS and inventory system; acquired by Lightspeed and integrated into Lightspeed Retail. | Starts at **$109/mo** (billed annually, integrated under Lightspeed Retail Standard/Core). | **14-day free trial** with full access to inventory catalog, sales terminal, and reporting tools using sample store data (no permanent free tier). |
+| **Revel Systems** | Cloud iPad POS designed for multi-location retail, quick-service, and hospitality operations with real-time reporting. | Starts at **$99/mo per terminal** (billed annually with 3-year processing agreement). | **30-day guided interactive demo & sandbox evaluation** with product engineers; full system configuration testing without live payment settlement. |
+| **Heartland Retail** | Cloud POS and retail operations platform emphasizing multi-store inventory, customer tracking, purchasing, and analytics. | Starts at **$89/mo per station** (billed annually). | **14-to-30-day sandbox demo trial** provided via sales onboarding with full multi-location and catalog simulation tools. |
+| **EPOS Now** | Modular cloud POS for retail and hospitality with inventory tracking, staff control, and external hardware support. | Software starts at **$39/mo** (or complete hardware + software bundle starting from $349 upfront + $39/mo). | **30-day free software trial** with full access to cloud back-office and virtual POS register testing (physical hardware not included in trial). |
+| **ShopKeep** *(Lightspeed Retail S-Series)* | iPad-based cloud POS for small shops and quick-serve retailers; now part of Lightspeed Retail. | Starts at **$49/mo** (Basic register software tier) up to **$109/mo** (Lightspeed Retail S-Series). | **14-day free trial** with full access to iPad POS interface, menu setup, and back-office analytics (no permanent free tier). |
 
 ### Additional Enterprise / Retail POS Platforms
 
-* **NCR Voyix**
-
-  * Enterprise retail technology platform covering POS, payments, self-checkout, commerce, and store operations.
-
-* **Oracle Retail Xstore**
-
-  * Enterprise-grade retail POS platform for large and multi-location retailers.
-
-* **Cegid Retail**
-
-  * Enterprise retail POS and commerce platform with strong presence in fashion, luxury, and specialty retail.
-
-* **Aptos**
-
-  * Enterprise retail technology covering POS, merchandising, inventory, customer engagement, and commerce.
-
-* **Retail Pro**
-
-  * Retail management and POS platform focused on specialty retail and multi-location operations.
-
-* **LS Retail**
-
-  * Retail and hospitality software ecosystem built around Microsoft Dynamics.
-
-* **Erply**
-
-  * Cloud retail POS and inventory platform with APIs and omnichannel functionality.
-
-* **Loyverse**
-
-  * Cloud POS targeting small retail and hospitality businesses.
-
-* **SumUp POS**
-
-  * Payments and POS ecosystem targeting small merchants.
-
-* **Helcim**
-
-  * Payments-centric merchant platform with POS capabilities.
-
-* **GoFrugal**
-
-  * Retail and restaurant POS ecosystem with inventory and business management.
-
-* **Marg ERP**
-
-  * India-focused ERP and retail POS ecosystem.
-
-* **Petpooja**
-
-  * India-focused restaurant POS and operations platform.
+| Platform | Key Focus & Capabilities | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **NCR Voyix** | Enterprise retail technology platform covering high-volume POS, self-checkout, digital commerce, and store operations. | Starts at **$108/mo per lane** (Aloha Cloud / retail base tier; enterprise scale with volume pricing). | **Guided proof-of-concept sandbox trial** (typically 14–30 days) via enterprise sales engineering for architecture evaluation. |
+| **Oracle Retail Xstore** | Tier-1 enterprise POS suite for multi-lane department stores, specialty chains, and global omnichannel retailers. | Starts at **~$150/user/mo** (or perpetual enterprise license starting from ~$5,000/lane plus annual maintenance). | **Structured POC sandbox evaluation** (typically 30 days) via Oracle Retail specialists; live environment setup during RFP/evaluation phase. |
+| **Cegid Retail** | Global unified commerce and POS platform specializing in luxury, fashion, beauty, and specialty store chains. | Starts at **€159/mo per store** (base cloud subscription module). | **Interactive solution sandbox & pilot trial** provided during pre-sales scoping for store workflows and catalog testing. |
+| **Aptos** | Large-scale enterprise cloud retail platform covering POS, unified commerce, CRM, merchandising, and order management. | Starts at **~$125/store/mo** (base SaaS unit pricing in multi-year enterprise contracts). | **Customized enterprise pilot evaluation** (typically 30–60 days) in a test staging environment with simulated store transactions. |
+| **Retail Pro** | Highly customizable retail management and POS platform for specialty retailers and global multi-location networks. | Starts at **$119/mo** for primary station ($99/mo for each additional station). | **30-day guided evaluation demo** and staging sandbox access through certified Retail Pro channel partners. |
+| **LS Retail** *(LS Central / LS Express)* | Unified retail and hospitality POS ecosystem built natively on Microsoft Dynamics 365 Business Central. | Starts at **$35/user/mo** (for LS Express) and **~$85/user/mo** (for LS Central base licensing + Dynamics BC seat). | **30-day free trial** available via Microsoft AppSource for LS Express/LS Central on Dynamics 365 (limited to sandbox database and test data). |
+| **Erply** | Cloud retail POS and inventory management platform with real-time stock control, CRM, and omnichannel APIs. | Starts at **$39/mo** (billed annually, or $59/mo billed monthly) for Brick & Mortar plan. | **60-day free trial** with access to 1 register, up to 1,000 products, cloud back-office, and inventory tools (no permanent free tier). |
+| **Loyverse** | Cloud mobile POS and inventory system designed for small retail, cafes, and boutique shops. | **$0/mo** (Free Core POS); paid add-ons start at $5/mo (Unlimited receipts) and $25/mo each for Employee Management and Advanced Inventory. | **Free forever core plan** with unlimited transactions, unlimited items, 1 store location, and basic inventory tracking; **14-day free trial** on all paid add-ons. |
+| **SumUp POS** | Mobile card payment and cloud POS ecosystem designed for micro-merchants and growing small retailers. | **$0/mo** (Pay-as-you-go POS app with 2.6% + 10¢ transaction fee) or **$99/mo** (SumUp POS Lite dedicated retail register). | **Free forever POS mobile app plan** for unlimited catalog items and basic sales tracking; **7-day to 30-day free trial** on premium software plans (POS Pro / Payments Plus). |
+| **Helcim** | Merchant services and payment-centric POS platform offering built-in virtual terminal, POS app, and inventory management. | **$0/mo subscription fee** (interchange-plus transaction fee starting at 0.40% + 8¢ above interchange for in-person). | **Free forever platform access** with unlimited users, unlimited devices/registers, full invoicing, inventory tracking, and virtual POS (strictly per-transaction fee, zero monthly software fee). |
+| **GoFrugal** | Comprehensive retail, restaurant, and distribution POS software with multi-store inventory and billing capabilities. | Starts at **$13/mo per register** (Starter Cloud edition, or ~$375 one-time license). | **30-day free trial** with full access to retail billing, inventory management, and reporting modules (testing up to 500 SKUs). |
+| **Marg ERP** | Inventory and accounting ERP software with integrated retail and pharmacy POS billing. | Starts at **₹5,550/year** (Nano edition) or **₹10,300/year** (Basic edition; cloud access starting at ~₹50/day). | **7-day free trial / free demo edition** capped at 50 bills/transactions and sample master database. |
+| **Petpooja** | Restaurant and food-retail POS platform providing billing, menu management, online order integration, and analytics. | Starts at **₹10,000/year** (Base single-outlet restaurant POS plan). | **7-day guided onboarding demo/trial environment** with full access to menu setup, KDS, and billing simulations. |
 
 Commercial comparisons consistently identify Shopify POS, Square, Lightspeed, Clover, Toast, Revel, and Heartland among major cloud POS offerings.
 
