@@ -1,1809 +1,818 @@
 # Awesome-Retail-POS
 
-## Top Publishing CMS Ecosystem
+## Top Retail POS
 
-
-
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**
-
-*Focused on digital publishing, editorial workflows, content management, headless CMS, omnichannel publishing, structured content, media management, localization, personalization, and developer-centric publishing infrastructure*
-
+**Curated List of SaaS/Hosted Platforms & Open-Source Software**
+*Focused on point-of-sale, retail checkout, payments, inventory, omnichannel commerce, customer management, loyalty, employee management, reporting, multi-store operations, and open-source retail infrastructure*
 **Last updated: August 2026**
 
+This repository tracks notable **SaaS/Hosted Retail POS platforms** and **Open-Source POS / retail-management projects**.
 
+Modern retail POS systems increasingly operate as the central layer connecting **checkout, payments, inventory, ecommerce, customers, loyalty, workforce, accounting, analytics, and store operations**, rather than functioning merely as electronic cash registers.
 
-This repository tracks notable **SaaS/Hosted Publishing CMS platforms** and **open-source publishing/content-management projects**.
+**Open-source emphasis:** This list intentionally gives substantial coverage to self-hostable and open-source projects, including **Odoo POS, Open Source Point of Sale (OSPOS), uniCenta oPOS, Floreant POS, Chromis POS, ERPNext POS, RetailPOS, Apache OFBiz POS**, and newer community projects.
 
-
-
-Publishing CMS is broader than a conventional website CMS. Modern publishing platforms increasingly support **structured content, omnichannel delivery, editorial workflows, content APIs, digital asset management, localization, versioning, preview, personalization, content federation, and publishing across websites, mobile applications, commerce, newsletters, and other digital channels**.
-
-
-
-**Open-source emphasis:** This list intentionally gives substantial coverage to self-hostable and open-source projects, including **WordPress, Drupal, Ghost, Wagtail, Strapi, Directus, Payload CMS, KeystoneJS, TinaCMS, Decap CMS, Webiny, Squidex, ApostropheCMS, Orchard Core, Plone, TYPO3, Joomla, and many others**.
-
-
-
-> **Important distinction:** Some modern CMS products have an open-source component while their hosted offering is commercial. For example, Strapi, Payload, Directus, Sanity Studio, and others should be evaluated based on the exact product, repository, license, and edition being used. "Free" and "open-source" are not synonymous.
-
-
+> **Important distinction:** Free software, an API, or an extensible platform does **not** automatically mean open-source. Always verify the specific edition, source repository, and license.
 
 ## Table of Contents
 
-
-
 * [SaaS/Hosted Platforms](#saashosted-platforms)
-
-* [Open-Source GitHub Projects](#open-source-github-projects)
-
-* [Additional Open-Source Publishing CMS](#additional-open-source-publishing-cms)
-
-* [Git-Based Publishing CMS](#git-based-publishing-cms)
-
-* [Enterprise Open-Source CMS](#enterprise-open-source-cms)
-
-* [Headless & API-First Open Source](#headless--api-first-open-source)
-
-* [Publishing Infrastructure](#publishing-infrastructure)
-
+* [Open-Source](#open-source)
+* [Open-Source Retail POS](#open-source-retail-pos)
+* [Open-Source ERP-Based POS](#open-source-erp-based-pos)
+* [Open-Source POS Projects](#open-source-pos-projects)
+* [Restaurant & Hospitality POS](#restaurant--hospitality-pos)
+* [Retail Commerce Infrastructure](#retail-commerce-infrastructure)
+* [POS Capability Matrix](#pos-capability-matrix)
 * [SaaS vs Open Source](#saas-vs-open-source)
-
-* [Commercial Platform vs Open-Source Ecosystem](#commercial-platform-vs-open-source-ecosystem)
-
+* [Recommended Open-Source Shortlist](#recommended-open-source-shortlist)
+* [Open-Source Retail Architecture](#open-source-retail-architecture)
+* [Open-Source Opportunities](#open-source-opportunities)
 * [How to Contribute](#how-to-contribute)
-
 * [Disclaimer](#disclaimer)
-
-
 
 ## SaaS/Hosted Platforms
 
+### Major Retail POS Platforms
 
+* **Shopify POS**
 
-### Enterprise Publishing CMS
+  * Omnichannel POS tightly integrated with the Shopify commerce ecosystem.
+  * Synchronizes in-store and online commerce, inventory, orders, customers, and products.
+  * Particularly compelling for retailers already using Shopify ecommerce.
 
+* **Square**
 
+  * Cloud POS and payments ecosystem.
+  * Combines checkout, payments, inventory, customers, staff, loyalty, ecommerce, appointments, and reporting.
+  * Particularly strong for small and medium-sized merchants.
 
-* **WordPress VIP**
+* **Lightspeed Retail**
 
+  * Retail-focused POS with sophisticated inventory, purchasing, reporting, customer management, ecommerce, and multi-location functionality.
+  * Particularly strong for specialty retailers and businesses with complex catalogs.
 
+* **Clover**
 
-  * Enterprise managed WordPress platform focused on high-scale publishing, content operations, security, governance, performance, and omnichannel delivery.
+  * Hardware-centric cloud POS and payments ecosystem.
+  * Combines terminals, payments, inventory, employees, reporting, and a large third-party application ecosystem.
 
-  * Particularly relevant to large publishers, media organizations, enterprises, and high-traffic digital properties.
+* **Toast**
 
+  * Primarily restaurant-focused POS and commerce platform.
+  * Includes POS, payments, online ordering, delivery, labor, inventory, loyalty, and restaurant operations.
 
+* **Vend**
 
-* **Contentful**
+  * Cloud retail POS and inventory platform.
+  * Acquired by Lightspeed and subsequently incorporated into the Lightspeed Retail ecosystem.
+  * Best treated as a historical/product-line reference rather than a separate current major vendor.
 
+* **Revel Systems**
 
+  * Cloud-based iPad POS platform.
+  * Supports inventory, employee management, reporting, customer management, integrations, and multi-location operations.
+  * Particularly prominent in restaurant and hospitality environments.
 
-  * API-first composable content platform for structured content and omnichannel publishing.
+* **Heartland Retail**
 
-  * Strong ecosystem of APIs, integrations, localization, editorial workflows, and enterprise content operations.
+  * Retail POS and management platform from Heartland.
+  * Focuses on inventory, customer engagement, reporting, payments, and multi-store retail.
 
+* **EPOS Now**
 
+  * Cloud POS platform serving retail and hospitality.
+  * Provides POS, inventory, payments, reporting, employee management, and integrations.
 
-* **Contentstack**
+* **ShopKeep**
 
+  * ShopKeep is now part of the Lightspeed ecosystem.
+  * Its technology/product lineage is associated with **Lightspeed Retail (S-Series)**.
+  * Treat it as a historical POS brand rather than a separate current platform.
 
+### Additional Enterprise / Retail POS Platforms
 
-  * Enterprise headless CMS focused on structured content, omnichannel publishing, workflows, localization, governance, and composable digital experiences.
+* **NCR Voyix**
 
+  * Enterprise retail technology platform covering POS, payments, self-checkout, commerce, and store operations.
 
+* **Oracle Retail Xstore**
 
-* **Agility CMS**
+  * Enterprise-grade retail POS platform for large and multi-location retailers.
 
+* **Cegid Retail**
 
+  * Enterprise retail POS and commerce platform with strong presence in fashion, luxury, and specialty retail.
 
-  * Headless CMS combining structured content management with page management, visual editing, digital asset management, and omnichannel delivery.
+* **Aptos**
 
+  * Enterprise retail technology covering POS, merchandising, inventory, customer engagement, and commerce.
 
+* **Retail Pro**
 
-* **Contentstack**
+  * Retail management and POS platform focused on specialty retail and multi-location operations.
 
+* **LS Retail**
 
+  * Retail and hospitality software ecosystem built around Microsoft Dynamics.
 
-  * Enterprise-grade headless publishing platform supporting complex content models, localization, workflows, and multi-channel delivery.
+* **Erply**
 
+  * Cloud retail POS and inventory platform with APIs and omnichannel functionality.
 
+* **Loyverse**
 
-* **Brightspot**
+  * Cloud POS targeting small retail and hospitality businesses.
 
+* **SumUp POS**
 
+  * Payments and POS ecosystem targeting small merchants.
 
-  * Enterprise CMS and digital experience platform used by publishers, media organizations, enterprises, and large content operations.
+* **Helcim**
 
-  * Supports editorial workflows, content modeling, personalization, digital asset management, and omnichannel delivery.
+  * Payments-centric merchant platform with POS capabilities.
 
+* **GoFrugal**
 
+  * Retail and restaurant POS ecosystem with inventory and business management.
 
-### Headless Publishing Platforms
+* **Marg ERP**
 
+  * India-focused ERP and retail POS ecosystem.
 
+* **Petpooja**
 
-* **Storyblok**
+  * India-focused restaurant POS and operations platform.
 
+Commercial comparisons consistently identify Shopify POS, Square, Lightspeed, Clover, Toast, Revel, and Heartland among major cloud POS offerings.
 
+## Open-Source
 
-  * Headless CMS with a strong visual-editor experience.
+The open-source POS market is considerably smaller and more fragmented than the commercial POS market.
 
-  * Combines structured content, reusable components, visual editing, workflows, localization, APIs, and omnichannel delivery.
+Nevertheless, there is a meaningful ecosystem ranging from **focused POS applications** to **full ERP platforms with embedded POS modules**.
 
-  * Particularly attractive to marketing-led publishing teams.
+### Leading Open-Source Retail POS
 
+* **Odoo POS**
 
+  * Browser-based POS integrated with the wider Odoo business suite.
+  * Connects POS with inventory, purchasing, accounting, CRM, ecommerce, and other ERP functions.
+  * One of the strongest choices when POS is part of a broader open-source ERP strategy.
 
-* **Prismic**
+* **Open Source Point of Sale (OSPOS)**
 
+  * Web-based POS application built around PHP and MySQL.
+  * Focuses specifically on POS and retail management.
+  * Provides modules for employees, inventory, sales, customers, expenses, and restaurant functionality.
 
+* **uniCenta oPOS**
 
-  * Headless CMS centered around its slice-based content architecture.
+  * Java-based POS descended from the Openbravo POS ecosystem.
+  * Suitable for retail, hospitality, multi-terminal environments, barcode-driven checkout, and traditional desktop POS deployments.
 
-  * Strong fit for marketing sites, editorial publishing, reusable page components, localization, and modern JavaScript frameworks.
+* **Floreant POS**
 
+  * Open-source POS particularly focused on restaurants.
+  * Supports food, employees, kitchens, tables, touch terminals, kitchen printers, cash drawers, and offline operation.
 
+* **Chromis POS**
 
-* **Sanity**
+  * Open-source Java POS derived from the Openbravo/uniCenta ecosystem.
+  * Particularly relevant to restaurants, cafes, hospitality, and small retail operations.
 
+* **ERPNext POS**
 
+  * POS integrated into the open-source ERPNext ecosystem.
+  * Connects sales with inventory, accounting, customers, purchasing, and ERP workflows.
 
-  * Structured-content platform with real-time collaboration, highly customizable content modeling, APIs, Portable Text, and a developer-centric Studio.
+* **RetailPOS**
 
-  * Strong fit for complex publishing applications and custom editorial experiences.
+  * Newer open-source POS focused specifically on connecting physical retail to existing ecommerce platforms.
+  * Supports Shopify, WooCommerce, BigCommerce, Magento, Sylius, Wix, PrestaShop, Squarespace, and other commerce platforms.
+  * Uses an Apache 2.0 license and emphasizes offline operation.
 
+* **Apache OFBiz POS**
 
+  * POS capabilities inside Apache OFBiz's broader enterprise commerce framework.
+  * Better suited to organizations wanting a deeply customizable commerce/ERP foundation.
 
-* **Hygraph**
+* **WallacePOS**
 
+  * Browser-based PHP POS.
+  * Historically useful as a lightweight self-hosted POS project.
+  * The project should be treated cautiously because its original repository indicates that it is no longer actively maintained.
 
+## Open-Source Retail POS
 
-  * GraphQL-native headless CMS supporting structured content, content federation, localization, editorial workflows, and omnichannel publishing.
-
-  * Particularly useful when content needs to combine multiple external sources through a unified content API.
-
-
-
-* **ButterCMS**
-
-
-
-  * Hosted headless CMS emphasizing rapid integration, blogging, marketing content, page management, and publishing APIs.
-
-  * Designed to reduce CMS infrastructure requirements for development teams.
-
-
-
-* **Strapi Cloud**
-
-
-
-  * Hosted version of the Strapi ecosystem.
-
-  * Provides managed infrastructure while retaining the developer-oriented Strapi content modeling and API approach.
-
-
-
-* **DatoCMS**
-
-
-
-  * API-first headless CMS focused on structured content, editorial workflows, media, localization, and high-performance publishing.
-
-
-
-* **Kontent.ai**
-
-
-
-  * Enterprise headless CMS focused on structured content, content operations, collaboration, localization, and omnichannel publishing.
-
-
-
-* **Storyblok**
-
-
-
-  * Visual-editor-first headless CMS with component-based content modeling and API delivery.
-
-
-
-### Digital Publishing & Editorial Platforms
-
-
-
-* **Ghost(Pro)**
-
-
-
-  * Managed publishing platform based on the Ghost open-source publishing system.
-
-  * Particularly focused on publications, newsletters, memberships, subscriptions, creators, and independent media.
-
-
-
-* **Substack**
-
-
-
-  * Hosted publishing and newsletter platform supporting subscription-based editorial businesses and independent publishers.
-
-
-
-* **Beehiiv**
-
-
-
-  * Newsletter and publication platform focused on audience growth, publishing, monetization, analytics, and newsletter operations.
-
-
-
-* **Webflow CMS**
-
-
-
-  * Hosted visual website and content-management platform combining design, CMS, publishing, and hosting.
-
-
-
-* **HubSpot Content Hub**
-
-
-
-  * Enterprise content platform combining CMS, marketing automation, personalization, analytics, and content operations.
-
-
-
-* **Adobe Experience Manager**
-
-
-
-  * Enterprise content management and digital experience platform supporting web content, assets, personalization, and large-scale publishing operations.
-
-
-
-* **Sitecore**
-
-
-
-  * Enterprise digital experience platform combining content management, personalization, analytics, commerce, and omnichannel publishing.
-
-
-
-* **Optimizely CMS**
-
-
-
-  * Enterprise CMS and digital experience platform supporting content management, experimentation, personalization, and publishing workflows.
-
-
-
-### Commerce & Product Publishing
-
-
-
-* **Builder.io**
-
-
-
-  * Visual headless CMS and composable experience platform for marketers and developers.
-
-  * Strong emphasis on visual page building, experimentation, personalization, and component-driven publishing.
-
-
-
-* **Contentful**
-
-
-
-  * Frequently used for structured product content and composable commerce architectures.
-
-
-
-* **Sanity**
-
-
-
-  * Frequently deployed for product catalogs, editorial content, commerce experiences, and structured publishing.
-
-
-
-* **Storyblok**
-
-
-
-  * Strong fit for commerce and marketing teams requiring visual content composition.
-
-
-
-* **Hygraph**
-
-
-
-  * Particularly useful for content federation and product/content aggregation.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### WordPress
-
-
-
-* **WordPress**
-
-
-
-  * One of the world's most widely deployed open-source publishing CMS platforms.
-
-  * Supports websites, blogs, news publishing, memberships, ecommerce, media, custom post types, plugins, themes, APIs, and headless architectures.
-
-  * REST API and WordPress ecosystem make it useful both as a traditional CMS and as a headless publishing backend.
-
-
-
-### Drupal
-
-
-
-* **Drupal**
-
-
-
-  * Enterprise-oriented open-source CMS and digital experience platform.
-
-  * Particularly strong in structured content, permissions, workflows, multilingual publishing, taxonomy, content modeling, and complex editorial environments.
-
-  * Strong choice for large organizations requiring extensive customization.
-
-
-
-### Ghost
-
-
-
-* **Ghost**
-
-
-
-  * Open-source publishing platform focused on professional publishing, newsletters, memberships, subscriptions, and creator businesses.
-
-  * Offers a modern publishing experience and API-driven architecture.
-
-  * Particularly attractive to publishers who do not need the enormous plugin ecosystem of WordPress.
-
-
-
-### Wagtail
-
-
-
-* **Wagtail**
-
-
-
-  * Open-source CMS built with Python and Django.
-
-  * Strong editorial experience, structured content, flexible page modeling, localization, workflows, and extensibility.
-
-  * Particularly attractive to organizations already using Django.
-
-
-
-### Strapi
-
-
-
-* **Strapi**
-
-
-
-  * Open-source headless CMS built around Node.js/TypeScript.
-
-  * Provides content modeling, REST APIs, GraphQL, administration UI, authentication, roles, media management, and extensibility.
-
-  * One of the most prominent open-source headless CMS projects.
-
-  * The hosted Strapi Cloud offering is separate from the self-hosted open-source deployment model.
-
-
-
-### Directus
-
-
-
-* **Directus**
-
-
-
-  * Open-source data platform and headless CMS that sits on top of SQL databases.
-
-  * Automatically generates REST and GraphQL APIs and provides a configurable administration interface.
-
-  * Particularly attractive when an organization wants CMS functionality without surrendering ownership of its underlying database.
-
-
-
-### Payload CMS
-
-
-
-* **Payload**
-
-
-
-  * Open-source TypeScript-first CMS and application framework.
-
-  * Strong integration with Next.js and modern React applications.
-
-  * Supports REST, GraphQL, Local API, authentication, access control, media, forms, localization, and custom application logic.
-
-  * Its current open-source model makes it particularly interesting for developers wanting a CMS embedded directly into an application.
-
-
-
-### KeystoneJS
-
-
-
-* **KeystoneJS**
-
-
-
-  * Open-source Node.js/TypeScript framework for building customizable CMS and data-driven applications.
-
-  * Provides schema-driven content models, administration UI, GraphQL APIs, access control, and database integration.
-
-
-
-### TinaCMS
-
-
-
-* **TinaCMS**
-
-
-
-  * Open-source Git-backed CMS designed for modern web frameworks.
-
-  * Particularly suited to Markdown/MDX and Git-based content workflows.
-
-  * Useful for developers who want content stored alongside application source code.
-
-
-
-### Decap CMS
-
-
-
-* **Decap CMS**
-
-
-
-  * Open-source Git-based content management system formerly known as Netlify CMS.
-
-  * Enables non-technical editors to manage content stored in Git repositories.
-
-  * Particularly useful for static sites and Jamstack architectures.
-
-
-
-### Webiny
-
-
-
-* **Webiny**
-
-
-
-  * Open-source serverless CMS and application platform.
-
-  * Designed for cloud-native deployment, particularly around AWS infrastructure.
-
-  * Supports headless content, page building, forms, files, and serverless architectures.
-
-
-
-### Squidex
-
-
-
-* **Squidex**
-
-
-
-  * Open-source headless CMS built around structured content and APIs.
-
-  * Supports content modeling, workflows, localization, permissions, assets, and REST/GraphQL APIs.
-
-
-
-### ApostropheCMS
-
-
-
-* **ApostropheCMS**
-
-
-
-  * Open-source CMS built with Node.js.
-
-  * Provides modular content management, page building, editorial workflows, media management, and extensibility.
-
-  * Particularly useful for organizations wanting a developer-friendly CMS with a visual editing experience.
-
-
-
-### Plone
-
-
-
-* **Plone**
-
-
-
-  * Mature open-source CMS built on Python.
-
-  * Strong security, permissions, workflow management, multilingual capabilities, and enterprise content management.
-
-  * Has a long history of deployment in government, education, nonprofit, and enterprise environments.
-
-
-
-### TYPO3
-
-
-
-* **TYPO3**
-
-
-
-  * Mature open-source enterprise CMS built with PHP.
-
-  * Strong multilingual publishing, permissions, workflows, content modeling, enterprise integration, and multisite management.
-
-
-
-### Joomla
-
-
-
-* **Joomla**
-
-
-
-  * Open-source CMS supporting websites, publishing, multilingual content, extensions, user management, templates, and structured content.
-
-
-
-### Concrete CMS
-
-
-
-* **Concrete CMS**
-
-
-
-  * Open-source CMS emphasizing inline editing and ease of use.
-
-  * Supports page management, permissions, workflows, multilingual sites, forms, and extensibility.
-
-
-
-## Additional Open-Source Publishing CMS
-
-
-
-### Classic / Full-Stack CMS
-
-
-
-* **WordPress**
-
-* **Drupal**
-
-* **Joomla**
-
-* **TYPO3**
-
-* **Plone**
-
-* **Concrete CMS**
-
-* **MODX**
-
-* **Craft CMS**
-
-* **Grav**
-
-* **SilverStripe**
-
-* **ExpressionEngine**
-
-* **ProcessWire**
-
-* **October CMS**
-
-* **Winter CMS**
-
-* **Umbraco**
-
-* **Pimcore**
-
-* **Microweber**
-
-* **Backdrop CMS**
-
-* **Textpattern**
-
-* **Fork CMS**
-
-* **Bolt CMS**
-
-
-
-### Modern Headless CMS
-
-
-
-* **Strapi**
-
-* **Directus**
-
-* **Payload**
-
-* **KeystoneJS**
-
-* **Squidex**
-
-* **Webiny**
-
-* **ApostropheCMS**
-
-* **Cockpit CMS**
-
-* **Twill**
-
-* **Sanity Studio**
-
-* **Payload CMS**
-
-* **Decap CMS**
-
-* **TinaCMS**
-
-
-
-### Developer-Oriented CMS
-
-
-
-* **Payload**
-
-* **KeystoneJS**
-
-* **Strapi**
-
-* **Directus**
-
-* **Wagtail**
-
-* **ApostropheCMS**
-
-* **TinaCMS**
-
-* **Decap CMS**
-
-* **Webiny**
-
-* **Squidex**
-
-
-
-### Git-Based CMS
-
-
-
-* **TinaCMS**
-
-* **Decap CMS**
-
-* **Front Matter CMS**
-
-* **Static CMS**
-
-* **Pages CMS**
-
-* **CloudCannon ecosystem**
-
-* **Jekyll + Forestry-style workflows**
-
-* **Hugo + Git workflows**
-
-* **Astro Content Collections**
-
-* **Nuxt Content**
-
-
-
-## Git-Based Publishing CMS
-
-
-
-Git-backed publishing is an important alternative to database-centric CMS architectures.
-
-
+### Odoo POS
 
 ```text
-
-                         GIT REPOSITORY
-
-                               │
-
-                ┌──────────────┼──────────────┐
-
-                │              │              │
-
-             Markdown        MDX           YAML/JSON
-
-                │              │              │
-
-                └──────────────┼──────────────┘
-
-                               │
-
-                     ┌─────────▼─────────┐
-
-                     │   Git CMS Layer   │
-
-                     ├───────────────────┤
-
-                     │ TinaCMS           │
-
-                     │ Decap CMS         │
-
-                     │ Static CMS        │
-
-                     │ Pages CMS         │
-
-                     └─────────┬─────────┘
-
-                               │
-
-                         Git Commit
-
-                               │
-
-                               ▼
-
-                        CI/CD Pipeline
-
-                               │
-
-                ┌──────────────┼──────────────┐
-
-                │              │              │
-
-              Vercel        Netlify         Cloudflare
-
-                │              │              │
-
-                └──────────────┼──────────────┘
-
-                               │
-
-                         Published Site
-
+                         ODOO POS
+                            │
+       ┌────────────────────┼────────────────────┐
+       │                    │                    │
+      POS                INVENTORY            CRM
+       │                    │                    │
+       ├────────────────────┼────────────────────┤
+       │                    │                    │
+   Payments             Purchasing          Accounting
+       │                    │                    │
+       └────────────────────┼────────────────────┘
+                            │
+                         Ecommerce
 ```
 
+Odoo's biggest advantage is that POS is not isolated from the rest of the business.
 
+This allows a retailer to connect:
 
-This architecture is especially attractive for:
-
-
-
-* Documentation
-
-* Developer portals
-
-* Blogs
-
-* Technical publications
-
-* Static marketing sites
-
-* Open-source projects
-
-* Version-controlled editorial content
-
-* Small-to-medium publishing teams
-
-
-
-## Enterprise Open-Source CMS
-
-
-
-For enterprise publishing, the strongest open-source options include:
-
-
-
-| Platform          | Primary Strength                             |
-
-| ----------------- | -------------------------------------------- |
-
-| **Drupal**        | Structured enterprise content                |
-
-| **TYPO3**         | Enterprise/multilingual publishing           |
-
-| **Plone**         | Security, workflow and governance            |
-
-| **Wagtail**       | Python/Django enterprise publishing          |
-
-| **WordPress**     | Massive ecosystem and publishing flexibility |
-
-| **Strapi**        | Headless/API-first publishing                |
-
-| **Directus**      | Database-first content management            |
-
-| **Payload**       | TypeScript/Next.js applications              |
-
-| **Pimcore**       | CMS + DAM + PIM                              |
-
-| **Webiny**        | Serverless cloud-native CMS                  |
-
-| **Squidex**       | Headless structured content                  |
-
-| **ApostropheCMS** | Visual editing + developer extensibility     |
-
-
-
-## Headless & API-First Open Source
-
-
-
-A modern publishing stack can be built by separating:
-
-
-
-```text
-
-                     CONTENT AUTHORS
-
-                           │
-
-                           ▼
-
-                    ┌──────────────┐
-
-                    │    CMS       │
-
-                    │              │
-
-                    │ Strapi       │
-
-                    │ Directus     │
-
-                    │ Payload      │
-
-                    │ Wagtail      │
-
-                    │ Drupal       │
-
-                    └──────┬───────┘
-
-                           │
-
-                    REST / GraphQL
-
-                           │
-
-             ┌─────────────┼─────────────┐
-
-             │             │             │
-
-             ▼             ▼             ▼
-
-           Web           Mobile        Commerce
-
-             │             │             │
-
-             └─────────────┼─────────────┘
-
-                           │
-
-                           ▼
-
-                       END USERS
-
-```
-
-
-
-This architecture allows the same content to power:
-
-
-
-* Websites
-
-* Mobile applications
-
-* Smart TVs
-
-* Digital signage
-
+* POS
+* Inventory
+* Purchasing
+* Accounting
 * Ecommerce
+* CRM
+* Loyalty
+* Warehousing
+* Manufacturing
+* Employees
 
-* Newsletters
+inside a broader business-management platform.
 
-* Voice applications
+### Open Source Point of Sale
 
-* AI agents
-
-* Digital kiosks
-
-* Documentation
-
-* Internal applications
-
-
-
-## Publishing Infrastructure
-
-
-
-A complete open-source publishing platform can be assembled from several layers.
-
-
+OSPOS takes a more focused approach:
 
 ```text
-
-                         PUBLISHING STACK
-
-                               │
-
-        ┌──────────────────────┼──────────────────────┐
-
-        │                      │                      │
-
-     CONTENT                 MEDIA                  DATA
-
-        │                      │                      │
-
-     Strapi                Immich*                 PostgreSQL
-
-     Directus              MinIO                   MySQL
-
-     Payload               ImageMagick             SQLite
-
-     Drupal                FFmpeg
-
-        │                      │
-
-        └──────────────────────┼──────────────────────┘
-
-                               │
-
-                          API / GraphQL
-
-                               │
-
-                               ▼
-
-                       APPLICATION LAYER
-
-                               │
-
-              ┌────────────────┼────────────────┐
-
-              │                │                │
-
-            Next.js          Astro            Nuxt
-
-              │                │                │
-
-              └────────────────┼────────────────┘
-
-                               │
-
-                               ▼
-
-                          CDN / EDGE
-
-                               │
-
-              ┌────────────────┼────────────────┐
-
-              │                │                │
-
-           Cloudflare        Varnish           Nginx
-
-              │                │                │
-
-              └────────────────┼────────────────┘
-
-                               │
-
-                               ▼
-
-                           READERS
-
+                 OPEN SOURCE POS
+                       │
+        ┌──────────────┼──────────────┐
+        │              │              │
+      SALES         INVENTORY      CUSTOMERS
+        │              │              │
+        └──────────────┼──────────────┘
+                       │
+                    REPORTS
+                       │
+                  WEB BROWSER
+                       │
+                PHP + MySQL
 ```
 
+This makes OSPOS attractive when a retailer wants **a dedicated self-hosted POS rather than a complete ERP**.
 
+### uniCenta oPOS
 
-*Media-management projects should be evaluated separately from a CMS; they are not necessarily drop-in DAM replacements.
+uniCenta is particularly interesting for:
 
+* Multi-terminal retail
+* Specialty retail
+* Small chains
+* Restaurants
+* Barcode-driven checkout
+* Traditional desktop POS
+* Custom hardware deployments
 
+Its Java architecture also differentiates it from newer browser-first POS platforms.
 
-## Publishing CMS Capability Matrix
+### Floreant POS
 
+Floreant is substantially more restaurant-oriented than retail-oriented.
 
+Typical capabilities include:
 
-| Capability               | SaaS / Hosted Platforms                | Open-Source Options                             |
+* Table management
+* Floor plans
+* Kitchen printing
+* Menu management
+* Restaurant order management
+* Payments
+* Employee management
+* Offline operation
 
-| ------------------------ | -------------------------------------- | ----------------------------------------------- |
+The official project describes Floreant as open-source and provides source code, while its commercial ORO POS product adds paid features and support.
 
-| Traditional CMS          | WordPress VIP, Content Hub, AEM        | WordPress, Drupal, Joomla, TYPO3                |
+### RetailPOS
 
-| Headless CMS             | Contentful, Sanity, Storyblok, Hygraph | Strapi, Directus, Payload, Keystone             |
+RetailPOS is particularly interesting as a newer generation of **composable open-source POS**.
 
-| Visual Editing           | Storyblok, Agility, Webflow            | WordPress, ApostropheCMS, Concrete CMS, Wagtail |
+```text
+                    RETAILPOS
+                       │
+       ┌───────────────┼────────────────┐
+       │               │                │
+    Shopify        WooCommerce       Magento
+       │               │                │
+       └───────────────┼────────────────┘
+                       │
+                  POS TERMINAL
+                       │
+          ┌────────────┼────────────┐
+          │            │            │
+       Offline       Orders      Inventory
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                    Payments
+```
 
-| Structured Content       | Contentful, Sanity, Hygraph            | Strapi, Directus, Payload, Drupal               |
+The project explicitly targets offline-first physical retail and uses Apache 2.0 licensing.
 
-| GraphQL                  | Hygraph, Contentful, Sanity            | Strapi, Directus, Payload, Keystone, Squidex    |
+## Open-Source ERP-Based POS
 
-| REST API                 | Most modern SaaS CMS                   | Strapi, Directus, Payload, Drupal, WordPress    |
+Some of the most interesting open-source POS projects are actually **ERP systems with POS functionality**.
 
-| Editorial Workflow       | Contentstack, Contentful, AEM          | Drupal, WordPress, TYPO3, Plone                 |
+| Platform         |         POS | ERP | Inventory | Accounting |   Ecommerce | Primary Positioning    |
+| ---------------- | ----------: | --: | --------: | ---------: | ----------: | ---------------------- |
+| **Odoo**         |           ✅ |   ✅ |         ✅ |          ✅ |           ✅ | Full business platform |
+| **ERPNext**      |           ✅ |   ✅ |         ✅ |          ✅ |           ✅ | Open-source ERP        |
+| **Apache OFBiz** |           ✅ |   ✅ |         ✅ |          ✅ |           ✅ | Enterprise commerce    |
+| **Dolibarr**     |           ✅ |   ✅ |         ✅ |          ✅ |           ✅ | SMB ERP/CRM            |
+| **Tryton**       | Via modules |   ✅ |         ✅ |          ✅ | Via modules | Modular ERP            |
 
-| Multilingual             | Contentful, Contentstack, Storyblok    | Drupal, TYPO3, WordPress, Plone                 |
+This is an important distinction:
 
-| Localization             | Contentful, Sanity, Contentstack       | Drupal, TYPO3, Strapi                           |
+> **POS software** answers "How do I sell this item?"
 
-| Media Management         | Contentful, Contentstack, AEM          | Drupal, WordPress, Pimcore                      |
+> **ERP-integrated POS** answers "How do I sell this item and immediately update the entire business?"
 
-| Digital Asset Management | AEM, Contentstack ecosystem            | Pimcore, Drupal ecosystem                       |
+## Open-Source POS Projects
 
-| Blog Publishing          | ButterCMS, Ghost(Pro)                  | Ghost, WordPress                                |
+### Retail-Focused
 
-| Newsletter Publishing    | Substack, Beehiiv                      | Ghost                                           |
+* **Odoo POS**
+* **ERPNext POS**
+* **Open Source Point of Sale (OSPOS)**
+* **uniCenta oPOS**
+* **RetailPOS**
+* **Apache OFBiz POS**
+* **WallacePOS**
+* **Chromis POS**
 
-| Memberships              | Ghost, WordPress ecosystems            | Ghost, WordPress                                |
+### Restaurant / Hospitality
 
-| Git-Based Content        | Limited                                | TinaCMS, Decap CMS, Static CMS                  |
+* **Floreant POS**
+* **Chromis POS**
+* **uniCenta**
+* **Odoo POS**
+* **ERPNext POS**
+* **URY**
+* **Apache OFBiz**
 
-| Self-Hosting             | Limited                                | Strong                                          |
+URY is an interesting newer ERPNext-based restaurant-management project combining POS, kitchen-display functionality, offline operation, printer management, and restaurant workflows.
 
-| Database Ownership       | Usually vendor-managed                 | Strong                                          |
+### Newer ERPNext POS Projects
 
-| Source Code Access       | Usually proprietary                    | Strong                                          |
+The ERPNext/Frappe ecosystem has also produced several modern POS frontends:
 
-| Vendor Lock-in           | Medium–High                            | Generally lower                                 |
+* **POS Next**
+* **X POS**
+* **antPOS**
+* **URY**
 
-| Customization            | APIs / extensions                      | Extremely high                                  |
+**POS Next** is an AGPL-3.0 project that provides a modern Vue/Vite interface, offline support, promotions, multiple payment methods, and ERPNext integration.
 
-| Enterprise Support       | Strong                                 | Available through vendors/agencies              |
+**X POS** similarly emphasizes offline-first operation, PWA/Electron deployment, keyboard-driven workflows, and multiple payment methods.
 
-| Developer Extensibility  | Strong                                 | Extremely high                                  |
+**antPOS** provides another modern ERPNext/Frappe POS implementation using Frappe APIs and UI components.
 
-| Hosted Infrastructure    | Strong                                 | Self-managed or third-party                     |
+## Restaurant & Hospitality POS
 
-| Omnichannel Publishing   | Strong                                 | Strong with architecture                        |
+Although this repository focuses on **Retail POS**, restaurant POS overlaps substantially with retail technology.
 
-| AI Integration           | Increasingly native                    | Broad ecosystem/custom                          |
+| Project          | Primary Focus             |
+| ---------------- | ------------------------- |
+| **Floreant POS** | Restaurant POS            |
+| **Chromis POS**  | Restaurant / hospitality  |
+| **uniCenta**     | Retail + hospitality      |
+| **Odoo POS**     | Retail + restaurant + ERP |
+| **ERPNext POS**  | Retail + ERP              |
+| **URY**          | Restaurant ERP + POS      |
+| **Apache OFBiz** | Enterprise commerce + POS |
 
-| Cost Predictability      | Subscription-based                     | Infrastructure + engineering                    |
+Commercial restaurant-oriented platforms include:
 
+* Toast
+* Revel Systems
+* TouchBistro
+* Clover
+* Lightspeed Restaurant
+* EPOS Now
+* Square
 
+## Retail Commerce Infrastructure
+
+Modern retail POS increasingly looks like:
+
+```text
+                         CUSTOMER
+                            │
+               ┌────────────┴────────────┐
+               │                         │
+             ONLINE                   IN-STORE
+               │                         │
+          Ecommerce                   POS
+               │                         │
+               └────────────┬────────────┘
+                            │
+                     COMMERCE PLATFORM
+                            │
+        ┌───────────────────┼───────────────────┐
+        │                   │                   │
+     Inventory           Customers           Orders
+        │                   │                   │
+        ├───────────────────┼───────────────────┤
+        │                   │                   │
+     Loyalty             Payments            Pricing
+        │                   │                   │
+        └───────────────────┼───────────────────┘
+                            │
+                         Analytics
+```
+
+The major cloud POS vendors increasingly compete on **omnichannel selling, real-time inventory, customer experience, payments, integrations, and centralized store operations**, rather than checkout alone.
+
+## POS Capability Matrix
+
+| Capability            | SaaS / Hosted Platforms             | Open-Source Options                 |
+| --------------------- | ----------------------------------- | ----------------------------------- |
+| Basic Checkout        | Shopify POS, Square, Clover         | OSPOS, uniCenta, Chromis            |
+| Retail Inventory      | Shopify, Lightspeed, Square         | Odoo, ERPNext, OSPOS                |
+| Multi-Store           | Shopify, Lightspeed, Clover         | Odoo, ERPNext, uniCenta             |
+| Ecommerce Integration | Shopify, Square, Lightspeed         | Odoo, ERPNext, RetailPOS            |
+| Payments              | Square, Clover, Shopify, Toast      | External integrations required      |
+| Loyalty               | Shopify, Square, Lightspeed         | Odoo, ERPNext, custom               |
+| Customer Management   | Most major SaaS POS                 | Odoo, ERPNext, OSPOS                |
+| Employee Management   | Shopify, Square, Lightspeed, Clover | Odoo, ERPNext                       |
+| Purchasing            | Lightspeed, Shopify ecosystem       | Odoo, ERPNext, OFBiz                |
+| Accounting            | Integrated / third-party            | Odoo, ERPNext, OFBiz                |
+| Offline Capability    | Vendor-dependent                    | Strong in selected projects         |
+| Barcode Scanning      | Strong                              | Strong in mature projects           |
+| Receipt Printing      | Strong                              | Hardware-dependent                  |
+| Cash Drawer           | Strong                              | Hardware-dependent                  |
+| Self-Hosting          | Usually limited                     | Strong                              |
+| Source Code Access    | No                                  | Yes                                 |
+| Database Ownership    | Usually vendor-managed              | Strong                              |
+| Customization         | APIs / extensions                   | Very high                           |
+| Vendor Lock-in        | Medium–High                         | Generally lower                     |
+| Managed Support       | Strong                              | Usually community / third-party     |
+| Enterprise SLA        | Available                           | Usually requires commercial support |
+| AI Features           | Increasing rapidly                  | Mostly custom/integrated            |
+| Omnichannel Commerce  | Strong                              | Requires architecture/integration   |
 
 ## SaaS vs Open Source
 
-
-
-### Commercial / SaaS Platforms
-
-
+### Commercial / SaaS POS
 
 Best suited for organizations wanting:
-
-
 
 * Managed infrastructure
+* Integrated payments
+* Certified hardware
+* Vendor support
+* Automatic upgrades
+* Cloud reporting
+* Multi-location management
+* Ecommerce integration
+* Loyalty
+* Payment compliance infrastructure
+* Vendor-managed security
 
-* Enterprise SLAs
+Major examples:
 
-* Security/compliance programs
+**Shopify POS, Square, Lightspeed Retail, Clover, Toast, Revel Systems, Heartland Retail, EPOS Now, NCR Voyix, Oracle Retail Xstore, Cegid Retail, Retail Pro and Erply.**
 
-* Vendor-supported upgrades
-
-* Built-in editorial workflows
-
-* Managed CDN and APIs
-
-* Enterprise localization
-
-* Workflow governance
-
-* Support for large editorial teams
-
-* Minimal infrastructure maintenance
-
-
-
-Major examples include:
-
-
-
-**WordPress VIP, Contentful, Storyblok, Prismic, Sanity, Hygraph, ButterCMS, Contentstack, Agility CMS, DatoCMS, Brightspot, Kontent.ai and Adobe Experience Manager.**
-
-
-
-### Open-Source Publishing Platforms
-
-
+### Open-Source POS
 
 Best suited for organizations wanting:
 
-
-
-* Source-code access
-
 * Self-hosting
-
-* Data sovereignty
-
-* Custom content models
-
-* Deep application integration
-
-* Custom editorial workflows
-
-* Database control
-
-* No mandatory SaaS dependency
-
-* Extensible APIs
-
-* Custom authentication and authorization
-
-* Infrastructure flexibility
-
-
-
-The strongest open-source ecosystem includes:
-
-
-
-**WordPress, Drupal, Ghost, Wagtail, Strapi, Directus, Payload, KeystoneJS, TinaCMS, Decap CMS, Webiny, Squidex, ApostropheCMS, Plone, TYPO3, Joomla and Concrete CMS.**
-
-
-
-## Commercial Platform vs Open-Source Ecosystem
-
-
-
-The commercial ecosystem generally looks like:
-
-
-
-```text
-
-                    ENTERPRISE PUBLISHING
-
-                           │
-
-              ┌────────────┼────────────┐
-
-              │            │            │
-
-           Content       Workflow      Media
-
-              │            │            │
-
-              ▼            ▼            ▼
-
-         Contentful    Contentstack     AEM
-
-         Storyblok     WordPress VIP    Brightspot
-
-         Sanity        Agility           Sitecore
-
-              │            │            │
-
-              └────────────┼────────────┘
-
-                           │
-
-                     Managed Cloud
-
-                           │
-
-                           ▼
-
-                        Readers
-
-```
-
-
-
-The open-source ecosystem is more modular:
-
-
-
-```text
-
-                    OPEN-SOURCE PUBLISHING
-
-                             │
-
-          ┌──────────────────┼──────────────────┐
-
-          │                  │                  │
-
-       CMS CORE          CONTENT API        MEDIA
-
-          │                  │                  │
-
-     WordPress           Strapi             Pimcore
-
-     Drupal              Directus           MinIO
-
-     Wagtail             Payload            FFmpeg
-
-     Ghost               Keystone
-
-          │                  │
-
-          └──────────────────┼──────────────────┘
-
-                             │
-
-                        FRONTEND
-
-                             │
-
-                ┌────────────┼────────────┐
-
-                │            │            │
-
-              Next.js      Astro         Nuxt
-
-                │            │            │
-
-                └────────────┼────────────┘
-
-                             │
-
-                           CDN
-
-                             │
-
-                             ▼
-
-                           USERS
-
-```
-
-
-
-This modularity can significantly reduce vendor lock-in, but it shifts responsibility for **hosting, upgrades, observability, security, backups, scaling, integrations, and operational support** toward the organization.
-
-
-
-## Open-Source Projects by Publishing Function
-
-
-
-| Publishing Function      | Strong Open-Source Projects                    |
-
-| ------------------------ | ---------------------------------------------- |
-
-| Traditional Publishing   | WordPress, Drupal, Joomla                      |
-
-| Enterprise CMS           | Drupal, TYPO3, Plone, Wagtail                  |
-
-| Headless CMS             | Strapi, Directus, Payload, KeystoneJS, Squidex |
-
-| Blog Publishing          | Ghost, WordPress                               |
-
-| Newsletter Publishing    | Ghost                                          |
-
-| Git-Based Publishing     | TinaCMS, Decap CMS, Static CMS                 |
-
-| Visual Page Building     | WordPress, ApostropheCMS, Concrete CMS         |
-
-| Structured Content       | Strapi, Directus, Payload, Drupal              |
-
-| API-First Content        | Strapi, Directus, Payload, Squidex             |
-
-| GraphQL                  | Strapi, Directus, Payload, KeystoneJS          |
-
-| Multilingual             | Drupal, TYPO3, WordPress, Plone                |
-
-| Workflow                 | Drupal, Plone, TYPO3, WordPress                |
-
-| Digital Asset Management | Pimcore, Drupal ecosystem                      |
-
-| Ecommerce Content        | WordPress/WooCommerce, Pimcore, Drupal         |
-
-| Documentation            | Docusaurus, MkDocs, Hugo, Astro                |
-
-| Static Publishing        | Hugo, Jekyll, Astro, Eleventy                  |
-
-| Developer Portals        | Docusaurus, MkDocs, Backstage                  |
-
-| Content Search           | OpenSearch, Elasticsearch                      |
-
-| Image Processing         | ImageMagick, Sharp                             |
-
-| Video Processing         | FFmpeg                                         |
-
-| Object Storage           | MinIO                                          |
-
-| Database                 | PostgreSQL, MySQL, MariaDB                     |
-
-| CDN / Edge               | Nginx, Varnish, OpenResty                      |
-
-| Authentication           | Keycloak                                       |
-
-| Analytics                | Matomo, Plausible                              |
-
-
-
-## Static / Documentation Publishing
-
-
-
-Not every publishing workload requires a traditional CMS.
-
-
-
-For developer documentation, technical publishing, and Git-centric workflows, strong open-source options include:
-
-
-
-* **Hugo**
-
-
-
-  * Extremely fast static-site generator written in Go.
-
-
-
-* **Jekyll**
-
-
-
-  * GitHub Pages-associated static publishing framework.
-
-
-
-* **Astro**
-
-
-
-  * Modern web framework with strong content collections and static publishing capabilities.
-
-
-
-* **Eleventy**
-
-
-
-  * Lightweight JavaScript-based static-site generator.
-
-
-
-* **Docusaurus**
-
-
-
-  * Open-source documentation website framework from Meta.
-
-
-
-* **MkDocs**
-
-
-
-  * Python-based documentation generator centered around Markdown.
-
-
-
-* **VitePress**
-
-
-
-  * Vue-based static documentation framework.
-
-
-
-* **Nextra**
-
-
-
-  * Next.js-based documentation and content framework.
-
-
-
-* **BookStack**
-
-
-
-  * Open-source platform for organizing documentation and knowledge.
-
-
-
-These are especially useful where the publishing workflow is:
-
-
-
-```text
-
-Markdown
-
-   │
-
-   ▼
-
-Git
-
-   │
-
-   ▼
-
-CI/CD
-
-   │
-
-   ▼
-
-Static Generator
-
-   │
-
-   ▼
-
-CDN
-
-   │
-
-   ▼
-
-Readers
-
-```
-
-
-
-rather than:
-
-
-
-```text
-
-Editor
-
-   │
-
-   ▼
-
-Database CMS
-
-   │
-
-   ▼
-
-Application Server
-
-   │
-
-   ▼
-
-Readers
-
-```
-
-
+* Source-code access
+* Database ownership
+* Custom workflows
+* Custom hardware integrations
+* Local/private deployments
+* Deep ERP integration
+* Custom payment integrations
+* Lower vendor lock-in
+* Greater control over data
+
+Strong candidates include:
+
+**Odoo POS, ERPNext POS, OSPOS, uniCenta, Floreant POS, Chromis POS, RetailPOS, Apache OFBiz POS and newer ERPNext-based projects.**
 
 ## Recommended Open-Source Shortlist
 
+### Tier 1 — Most Interesting
 
+* **Odoo POS**
+* **ERPNext POS**
+* **Open Source Point of Sale (OSPOS)**
+* **uniCenta oPOS**
+* **Floreant POS**
+* **Chromis POS**
+* **RetailPOS**
 
-If the goal is to build a serious open-source publishing CMS ecosystem, the projects most worth investigating first are:
+### Tier 2 — ERP / Commerce Platforms
 
+* **Apache OFBiz POS**
+* **Dolibarr**
+* **Tryton**
+* **WallacePOS**
 
+### Tier 3 — Emerging / Specialized
 
-### Tier 1 — Major Platforms
+* **POS Next**
+* **X POS**
+* **antPOS**
+* **URY**
+* **Posnic**
+* **FloCafe**
+* **Olgax POS**
 
+Recent open-source POS comparisons show an increasingly diverse ecosystem spanning ERP-based POS, local-first POS, web POS, restaurant POS, and newer projects such as RetailPOS and Posnic.
 
+## Open-Source Retail Architecture
 
-* **WordPress**
-
-* **Drupal**
-
-* **Ghost**
-
-* **Wagtail**
-
-* **Strapi**
-
-* **Directus**
-
-* **Payload**
-
-* **TYPO3**
-
-
-
-### Tier 2 — Modern / Specialized
-
-
-
-* **KeystoneJS**
-
-* **Webiny**
-
-* **Squidex**
-
-* **ApostropheCMS**
-
-* **Plone**
-
-* **Pimcore**
-
-* **Concrete CMS**
-
-* **Joomla**
-
-* **TinaCMS**
-
-* **Decap CMS**
-
-
-
-### Tier 3 — Git / Static Publishing
-
-
-
-* **Astro**
-
-* **Hugo**
-
-* **Jekyll**
-
-* **Eleventy**
-
-* **Docusaurus**
-
-* **MkDocs**
-
-* **VitePress**
-
-* **Nextra**
-
-* **Nuxt Content**
-
-
-
-## The Biggest Open-Source Opportunities
-
-
-
-The commercial publishing CMS market is increasingly moving toward:
-
-
+A modern self-hosted retail platform can be structured as:
 
 ```text
+                         RETAIL STORE
+                              │
+                    ┌─────────┴─────────┐
+                    │                   │
+                 POS UI              Hardware
+                    │                   │
+             React / Vue / Web       Scanner
+                    │                Printer
+                    │                Cash Drawer
+                    │                Terminal
+                    │
+                    ▼
+                POS ENGINE
+                    │
+       ┌────────────┼────────────┐
+       │            │            │
+     Sales       Inventory     Customers
+       │            │            │
+       └────────────┼────────────┘
+                    │
+              Business Logic
+                    │
+       ┌────────────┼────────────┐
+       │            │            │
+    Payments     Loyalty      Employees
+       │            │            │
+       └────────────┼────────────┘
+                    │
+                    ▼
+                 DATABASE
+                    │
+              PostgreSQL/MySQL
+                    │
+          ┌─────────┼─────────┐
+          │         │         │
+       Ecommerce  Accounting Analytics
+          │         │         │
+          └─────────┼─────────┘
+                    │
+                    ▼
+                  CLOUD
+```
 
-CMS
+## Offline-First POS
 
+Offline operation is particularly important for physical retail.
+
+A robust open-source architecture can look like:
+
+```text
+                  STORE POS TERMINAL
+                         │
+                         ▼
+                  LOCAL POS DATABASE
+                         │
+                 ┌───────┴───────┐
+                 │               │
+              SALE CACHE      INVENTORY
+                 │               │
+                 └───────┬───────┘
+                         │
+                    INTERNET
+                         │
+                    Sync Engine
+                         │
+                         ▼
+                   CENTRAL SERVER
+                         │
+              ┌──────────┼──────────┐
+              │          │          │
+           Store A    Store B    Store C
+```
+
+This is especially valuable when:
+
+* Internet connectivity is unreliable
+* Stores must continue selling during outages
+* Checkout latency must remain low
+* Local hardware must keep operating independently
+* Retailers operate across remote locations
+
+Newer open-source POS projects such as RetailPOS, POS Next, and X POS explicitly emphasize offline-first behavior.
+
+## Payment Infrastructure
+
+One of the biggest differences between open-source and commercial POS is payments.
+
+A commercial POS can provide:
+
+```text
+POS
  │
-
- ├── Structured Content
-
- ├── Visual Editing
-
- ├── Workflow
-
- ├── Localization
-
- ├── DAM
-
- ├── Personalization
-
- ├── Analytics
-
- ├── AI
-
- └── Omnichannel APIs
-
+ ▼
+Vendor Payment Stack
+ │
+ ├── Card Processing
+ ├── Payment Terminal
+ ├── Tokenization
+ ├── Fraud
+ ├── Refunds
+ ├── Settlement
+ └── Compliance
 ```
 
-
-
-The open-source ecosystem already covers most of the underlying technologies, but they are often fragmented across different projects.
-
-
-
-The largest opportunities for open-source publishing infrastructure therefore include:
-
-
-
-1. **Unified headless + visual publishing**
-
-2. **Open-source enterprise editorial workflow**
-
-3. **Open-source DAM + CMS integration**
-
-4. **AI-assisted editorial workflows**
-
-5. **Open content federation**
-
-6. **Open personalization engines**
-
-7. **Composable publishing infrastructure**
-
-8. **Multi-tenant publishing platforms**
-
-9. **Real-time collaborative editing**
-
-10. **Open-source publishing analytics**
-
-11. **Open-source content experimentation**
-
-12. **Portable content models**
-
-13. **Standards-based content migration**
-
-14. **Git + database hybrid publishing**
-
-15. **Self-hosted enterprise publishing clouds**
-
-
-
-A particularly compelling architecture is:
-
-
+An open-source POS typically needs:
 
 ```text
-
-                    OPEN PUBLISHING PLATFORM
-
-                              │
-
-          ┌───────────────────┼───────────────────┐
-
-          │                   │                   │
-
-       CONTENT             EDITORIAL             AI
-
-          │                 WORKFLOW              │
-
-          │                   │                   │
-
-       Strapi             Custom Workflow      LLMs
-
-       Directus           Keycloak              Agents
-
-       Payload            Temporal              RAG
-
-          │                   │                   │
-
-          └───────────────────┼───────────────────┘
-
-                              │
-
-                         CONTENT GRAPH
-
-                              │
-
-                 ┌────────────┼────────────┐
-
-                 │            │            │
-
-                Web         Mobile       Commerce
-
-                 │            │            │
-
-                 └────────────┼────────────┘
-
-                              │
-
-                          ANALYTICS
-
-                              │
-
-                        Matomo / etc.
-
+POS
+ │
+ ▼
+Payment Integration Layer
+ │
+ ├── Stripe
+ ├── Adyen
+ ├── Square
+ ├── Worldpay
+ ├── Local Acquirer
+ ├── Bank Terminal
+ └── Custom Processor
 ```
 
+Therefore:
 
+> **Open-source POS does not eliminate payment-processing costs or payment-compliance responsibilities.**
 
-This is where open-source publishing infrastructure can potentially evolve from simply being a **CMS alternative** into a complete **open publishing operating layer**.
+The application may be open-source while the payment processor, terminal, acquiring bank, or fiscalization infrastructure remains proprietary.
 
+## Open-Source Retail Ecosystem
 
+A complete open-source retail stack could combine:
+
+```text
+                         OPEN RETAIL STACK
+                                │
+        ┌───────────────────────┼───────────────────────┐
+        │                       │                       │
+        ▼                       ▼                       ▼
+       POS                    ERP                   Ecommerce
+        │                       │                       │
+   OSPOS / Odoo            ERPNext / Odoo        Medusa / Saleor
+   uniCenta                 Apache OFBiz         WooCommerce
+        │                       │                       │
+        └───────────────────────┼───────────────────────┘
+                                │
+                           INVENTORY
+                                │
+                          PostgreSQL
+                                │
+        ┌───────────────────────┼───────────────────────┐
+        │                       │                       │
+        ▼                       ▼                       ▼
+     Payments                Analytics                Search
+        │                       │                       │
+     Stripe                  Metabase             OpenSearch
+     Adyen                   Superset
+     Local Acquirer
+```
+
+This makes open-source retail infrastructure substantially more interesting than simply replacing the checkout application.
+
+## Open-Source Opportunities
+
+The commercial retail POS market is increasingly converging toward:
+
+```text
+POS
+ │
+ ├── Payments
+ ├── Inventory
+ ├── Ecommerce
+ ├── Customer Data
+ ├── Loyalty
+ ├── Workforce
+ ├── Analytics
+ ├── AI
+ └── Omnichannel Commerce
+```
+
+The open-source ecosystem remains fragmented, creating significant opportunities for platforms that unify these components.
+
+Potential opportunities include:
+
+1. **Modern open-source omnichannel POS**
+2. **Open-source payment abstraction layer**
+3. **Offline-first POS infrastructure**
+4. **Open-source retail inventory engine**
+5. **Open-source loyalty platform**
+6. **Open-source retail customer-data platform**
+7. **Open-source retail analytics**
+8. **Open-source retail AI agents**
+9. **Open-source store operations platform**
+10. **Open-source workforce + POS integration**
+11. **Open-source fiscalization infrastructure**
+12. **Open-source POS hardware abstraction**
+13. **Open-source multi-store synchronization**
+14. **Open-source retail event bus**
+15. **Open-source unified commerce platform**
+
+A particularly interesting long-term architecture is:
+
+```text
+                     OPEN UNIFIED COMMERCE
+                              │
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+         POS               ECOMMERCE          MOBILE
+          │                   │                   │
+          └───────────────────┼───────────────────┘
+                              │
+                       COMMERCE CORE
+                              │
+       ┌──────────────────────┼──────────────────────┐
+       │                      │                      │
+   Inventory              Customer                Orders
+       │                      │                      │
+       ├──────────────────────┼──────────────────────┤
+       │                      │                      │
+   Payments                Loyalty                Pricing
+       │                      │                      │
+       └──────────────────────┼──────────────────────┘
+                              │
+                         EVENT STREAM
+                              │
+               ┌──────────────┼──────────────┐
+               │              │              │
+            Analytics         AI          Automation
+               │              │              │
+               └──────────────┼──────────────┘
+                              │
+                           STORES
+```
+
+This would move open-source POS from a **cash-register replacement** toward a full **open retail operating system**.
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
 2. Add or edit entries in `README.md`.
-
 3. Keep the existing formatting style.
-
 4. Include the official website or GitHub repository where appropriate.
-
 5. Clearly identify whether the project is:
 
-
-
    * SaaS / Hosted
-
    * Commercial self-hosted
-
    * Open-source
-
    * Open-core
-
-   * Git-based
-
-   * Static publishing framework
-
-   * Developer framework
-
+   * ERP-integrated
+   * Restaurant-focused
+   * Retail-focused
+   * POS infrastructure
 6. For open-source projects, preferably include the license.
-
-7. Describe the actual publishing capability rather than simply calling every website framework a CMS.
-
-8. Avoid presenting component-level tools as complete CMS replacements.
-
+7. Distinguish genuine open-source software from free proprietary POS products.
+8. Avoid presenting abandoned projects as actively maintained.
 9. Submit a PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
 
-
-
 * This is a **community-curated** list — not exhaustive and not an endorsement.
-
-* "Publishing CMS" covers traditional CMS, headless CMS, digital publishing platforms, blogging platforms, enterprise content platforms, documentation systems, and Git-based publishing systems.
-
-* Some products have both open-source and commercial/hosted components.
-
-* Always verify the **current repository, license, edition, feature availability, and commercial terms** before adopting a project.
-
-* "Free tier" does not mean open-source.
-
-* Open-source availability does not necessarily mean every enterprise feature is available under the same license.
-
-* Self-hosted software transfers responsibility for infrastructure, security, upgrades, backups, scaling, observability, and operational support to the deploying organization.
-
-* Commercial product names, ownership, pricing, features, and licensing can change over time.
-
-* The inclusion of a project does not imply endorsement, security certification, or production-readiness for every workload.
-
-* Organizations should evaluate content portability, API stability, editorial workflow requirements, localization, access control, performance, security, compliance, and long-term project activity before adoption.
-
-
+* "Retail POS" includes traditional POS, cloud POS, payments-integrated POS, retail management systems, ERP-based POS, omnichannel commerce platforms, and POS infrastructure.
+* Some products have both open-source and commercial components.
+* Always verify the **current repository, edition, license, hardware compatibility, payment integrations, fiscalization requirements, and commercial terms** before adoption.
+* "Free" does not mean open-source.
+* A public API does not mean that a product is open-source.
+* Open-source availability does not guarantee that payment processing, hardware drivers, fiscalization, tax integrations, or enterprise support are included.
+* Self-hosted software transfers responsibility for infrastructure, security, backups, upgrades, observability, hardware integration, and operational support to the deploying organization.
+* Payment processing remains subject to processor fees, compliance requirements, and applicable regulations.
+* Product names, ownership, pricing, features, licensing, and availability can change over time.
+* Inclusion of a project does not imply endorsement, security certification, PCI compliance, or production-readiness for every workload.
+* Organizations should evaluate **offline behavior, hardware compatibility, payment processing, PCI responsibilities, fiscalization, inventory accuracy, data export, security, multi-store synchronization, disaster recovery, and long-term project activity** before adoption.
 
 ---
 
+**Made for retailers, merchants, developers, ecommerce teams, system integrators, open-source developers, retail technology companies, and anyone building the next generation of open and composable retail infrastructure.**
 
+Let's make retail more **open, interoperable, customizable, portable, offline-capable, and developer-friendly**.
 
-**Made for publishers, media companies, editorial teams, marketers, developers, content strategists, digital agencies, enterprises, open-source developers, and anyone building the next generation of digital publishing infrastructure.**
-
-
-
-Let's make publishing more **open, composable, portable, developer-friendly, interoperable, and accessible**.
