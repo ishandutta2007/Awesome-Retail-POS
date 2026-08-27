@@ -93,7 +93,7 @@ The open-source POS ecosystem provides developer control, database ownership, of
 
 Below are the notable open-source and self-hostable POS projects, **sorted in descending order by GitHub Stars ⭐**. Each project name includes a live star badge linking directly to the repo's stargazers page:
 
-| Project | GitHub Stars | License | Primary Tech Stack | Description & Positioning |
+| Project | GitHub_Stars | License | Primary Tech Stack | Description & Positioning |
 | :--- | :---: | :---: | :--- | :--- |
 | **[Odoo POS](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Python, JavaScript (OWL), PostgreSQL | Full-suite web POS tightly integrated with Odoo ERP, inventory, purchasing, CRM, accounting, and eCommerce. |
 | **[ERPNext POS](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Python, Frappe Framework, MariaDB/PostgreSQL | Built-in POS module within ERPNext; connects physical sales directly with general ledger, warehouse stock, and billing. |
